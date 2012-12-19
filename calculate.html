@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>ledger</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+<h3 style="color:lightgreen"><marquee>Its just a trial ;) </marquee></h3>
+<h1 align="center" style="color:blue"> CALCULATOR</h1>
+
+<form NAME="Calc">
+<table BORDER=4>
+<tr>
+<td>
+<input TYPE="text"   NAME="Input" Size="16">
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<input TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<input TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<input TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<input TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+<br>
+<input TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<input TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<input TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<input TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+<br>
+<input TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+<input TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<input TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<input TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+<br>
+<input TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<input TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<input TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<input TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+<br>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<div data-bb-type="screen" data-bb-scroll-effect="off">
+
+	<div data-bb-type="title" data-bb-caption="CALCULATOR" ></div>
+<style type="text/css">
+	
+	table{
+		background-image: 'cal.jpg';
+	}
+</style>
+
+<form name="calculator">
+<!--<textarea row="3" cols="10" id="output" maxlength="10"></textarea>-->
+<table>
+
+	<input type="text" id="ipd" name="ip" size="16">
+	<tr>
+		<td><div data-bb-type="button" onclick="clearc();"/>C</div></td>
+	</tr>
+	<tr>
+		     
+	  <td><div data-bb-type="button" id="one" onclick="calc(1);"/>1</td>
+	  <td><div data-bb-type="button" id="two" onclick="calc(2);" />2</td>
+	  <td><div data-bb-type="button" id="three" onclick="calc(3);"/>3</td>
+	  <td><div data-bb-type="button" id="divide" onclick="calc('/');" />/</td>
+	</tr>
+   <tr>
+	  <td><div data-bb-type="button" id="four" onclick="calc(4);" />4</td>
+	  <td><div data-bb-type="button" id="five" onclick="calc(5);" />5</td>
+	  <td><div data-bb-type="button" id="six" onclick="calc(6);" />6</td>
+	  <td><div data-bb-type="button" id="times" onclick="calc('*');" />*</td>
+	</tr>
+	<tr>
+	  <td><div data-bb-type="button" id="seven" onclick="calc(7);" />7</td>
+	  <td><div data-bb-type="button" id="eight" onclick="calc(8);" />8</td>
+	  <td><div data-bb-type="button" id="nine" onclick="calc(9);" />9</td>
+	  <td><div data-bb-type="button" id="minus" onclick="calc('-');" />-</td>
+	</tr>
+	<tr>
+	  <td><div data-bb-type="button" id="zero" onclick="calc(0);" />0</td>
+	  <td><div data-bb-type="button" id="point" onclick="calc('.');"/>.</td>
+	  <td><div data-bb-type="button" id="plus" onclick="calc('+');"/>+</td>
+	  <td><div data-bb-type="button" id="equals" onclick="calculate();"/>=</td>
+	</tr>
+	
+
+</table>
+</form>
+<div data-bb-type="action-bar" data-bb-back-caption="Exit">
+	<div data-bb-type="action" data-bb-style="button" data-bb-img="one.png" onclick="bb.pushScreen('about.html', 'about');">About </div>
+</div>
+	
+
+
+
+<!--<div data-bb-type="button" id="about" onclick="window.location.href='about.html';">About
+</div>-->
+ 
+</div>
